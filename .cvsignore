@@ -1,0 +1,5 @@
+Makefile
+Makefile.md5
+*.d
+kdmktone
+kdmktone_version.h

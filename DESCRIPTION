@@ -1,0 +1,25 @@
+Make the console beep
+# $Header$
+#
+# $Log$
+# Revision 1.1  2006-10-21 02:30:12  tino
+# Commit for dist
+#
+
+This is a helper to play some tunes on the console.
+
+It's commandline is a list of
+
+hz:duration:wait
+
+where hz is the frequency, 0 for 'sound off'<br>
+duration is in milliseconds, 100 by default<br>
+wait is the wait time, duration by default
+
+You can leave away unused parts, so here is a small Dschingle
+<pre>
+for a in 1 2 3; do ./kdmktone 1000 1500 2000 0; done
+</pre>
+
+Please note that some beepers out there don't like some frequencies,
+such that you cannot hear them.  That's not the fault of this tool.

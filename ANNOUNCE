@@ -1,3 +1,2 @@
-This actually is an old (but now improved) version.
-
-I just created it to let my console beep.
+Announcements are now in the git commit log:
+git log --follow VERSION
